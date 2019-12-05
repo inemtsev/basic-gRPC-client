@@ -11,7 +11,7 @@ import (
 func main() {
 	router := gin.Default()
 
-	rg := router.Group("api/v1/aboutMe")
+	rg := router.Group("api/v1/basketballPlayer")
 	{
 		rg.GET("/:id", fetchBasketballPlayer)
 		// Add more routes here later
